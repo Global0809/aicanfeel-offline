@@ -10,6 +10,7 @@ import {
   type FormEvent,
 } from "react";
 import Link from "./SiteLink";
+import { siteUrl } from "../lib/site-url";
 import dynamic from "next/dynamic";
 import CampaignReel from "./CampaignReel";
 import BookingPortal from "./BookingPortal";
@@ -297,7 +298,7 @@ export default function Studio({ view, slug, bookingId }: StudioProps) {
                 index={selected}
                 onSelect={setSelected}
                 onOpen={(index) =>
-                  window.location.assign(`/campaign/${campaigns[index].id}`)
+                  window.location.assign(siteUrl(`/campaign/${campaigns[index].id}`))
                 }
                 motion={motion}
               />
@@ -424,7 +425,7 @@ export default function Studio({ view, slug, bookingId }: StudioProps) {
         </div>
         <div className="crt-scan" aria-hidden="true" />
         <img
-          src="/ui/tv-glass.webp"
+          src={siteUrl("/ui/tv-glass.webp")}
           className="crt-glass"
           alt=""
           aria-hidden="true"
@@ -644,7 +645,7 @@ function Catalogue({
         tax are confirmed in your proposal before payment. Concept imagery shows
         creative direction.
       </p>
-      <a className="text-button" href="/AICANFEEL-Campaign-Book.pdf" download>
+      <a className="text-button" href={siteUrl("/AICANFEEL-Campaign-Book.pdf")} download>
         Download the campaign collection · PDF {arrow}
       </a>
       <CommonClose />

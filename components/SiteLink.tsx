@@ -1,6 +1,7 @@
 "use client";
 
 import { forwardRef, type AnchorHTMLAttributes } from "react";
+import { siteUrl } from "../lib/site-url";
 
 export type SiteLinkProps = Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href"> & {
   href: string;
@@ -31,7 +32,7 @@ const SiteLink = forwardRef<HTMLAnchorElement, SiteLinkProps>(function SiteLink(
 ) {
   const anchorProps = { ...candidateProps };
   for (const prop of routerOnlyProps) delete anchorProps[prop];
-  return <a {...anchorProps} ref={ref} href={as ?? href} />;
+  return <a {...anchorProps} ref={ref} href={siteUrl(as ?? href)} />;
 });
 
 export default SiteLink;

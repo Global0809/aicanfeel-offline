@@ -1,3 +1,4 @@
+import { siteUrl } from "./site-url";
 export type City = "new-york" | "london";
 export type Campaign = {
   id: string;
@@ -484,10 +485,10 @@ export function campaignById(id: string) {
   return campaigns.find((c) => c.id === id);
 }
 export function photo(campaign: Campaign | string, index: number) {
-  return `/campaigns/${typeof campaign === "string" ? campaign : campaign.id}/${String(index).padStart(2, "0")}.webp`;
+  return siteUrl(`/campaigns/${typeof campaign === "string" ? campaign : campaign.id}/${String(index).padStart(2, "0")}.webp`);
 }
 export function coverPhoto(campaign: Campaign | string) {
-  return `/campaigns/${typeof campaign === "string" ? campaign : campaign.id}/cover.webp`;
+  return siteUrl(`/campaigns/${typeof campaign === "string" ? campaign : campaign.id}/cover.webp`);
 }
 export const shotLabels = [
   "Art direction",

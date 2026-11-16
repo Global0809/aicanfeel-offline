@@ -2,7 +2,15 @@
 
 Ten filmed, real-world advertising packages for New York and London. The public experience adapts the supplied CRT/VHS reference, with a true 3D tape catalogue, ninety original campaign concept photographs, photographic reels, local brand previews and a persistent production-request workflow.
 
-Public site: https://aicanfeel-offline.globalgupta14.chatgpt.site
+Public GitHub Pages site: https://global0809.github.io/aicanfeel-offline/
+
+Server-backed booking application: https://aicanfeel-offline.globalgupta14.chatgpt.site
+
+## GitHub Pages
+
+Run `npm run install:ci` and `npm run build:pages` to create `dist/pages/`. Publish that directory to the `gh-pages` branch; GitHub Pages is configured to serve its root. The dedicated `pages/` Vite target reuses the original components, artwork, fonts and interactive catalogue. It exports direct-entry HTML routes for all ten campaigns and the public information pages, with the `/aicanfeel-offline/` project base applied to links, imagery and downloadable assets.
+
+GitHub Pages serves the full public browsing experience without an account. It cannot execute the Worker/D1 booking backend. Booking buttons therefore open the existing live booking application, carrying the selected city and any brand/colour preview parameters. Direct booking and private receipt URLs also hand off there while retaining query parameters and receipt fragments. No customer data or private credentials are stored in the static deployment.
 
 ## Product and operating flow
 
