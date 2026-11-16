@@ -1,0 +1,980 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-16T05:44:46.169Z",
+  "title": "Design System: AICANFEEL Offline",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Bg",
+        "canonical": "#111",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#ece9e1",
+        "tonalRamp": [
+          "oklch(15.00% 0.01117 89.73)",
+          "oklch(26.43% 0.01117 89.73)",
+          "oklch(37.86% 0.01117 89.73)",
+          "oklch(49.29% 0.01117 89.73)",
+          "oklch(60.71% 0.01117 89.73)",
+          "oklch(72.14% 0.01117 89.73)",
+          "oklch(83.57% 0.01117 89.73)",
+          "oklch(95.00% 0.01117 89.73)"
+        ]
+      },
+      "quiet": {
+        "role": "neutral",
+        "displayName": "Quiet",
+        "canonical": "#b5b2aa",
+        "tonalRamp": [
+          "oklch(15.00% 0.01173 89.75)",
+          "oklch(26.43% 0.01173 89.75)",
+          "oklch(37.86% 0.01173 89.75)",
+          "oklch(49.29% 0.01173 89.75)",
+          "oklch(60.71% 0.01173 89.75)",
+          "oklch(72.14% 0.01173 89.75)",
+          "oklch(83.57% 0.01173 89.75)",
+          "oklch(95.00% 0.01173 89.75)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "#ece9e12e",
+        "tonalRamp": [
+          "oklch(15.00% 0.01117 89.73)",
+          "oklch(26.43% 0.01117 89.73)",
+          "oklch(37.86% 0.01117 89.73)",
+          "oklch(49.29% 0.01117 89.73)",
+          "oklch(60.71% 0.01117 89.73)",
+          "oklch(72.14% 0.01117 89.73)",
+          "oklch(83.57% 0.01117 89.73)",
+          "oklch(95.00% 0.01117 89.73)"
+        ]
+      },
+      "outer": {
+        "role": "neutral",
+        "displayName": "Outer",
+        "canonical": "#080808",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "television": {
+        "role": "neutral",
+        "displayName": "Television",
+        "canonical": "#070707",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "field-bg": {
+        "role": "neutral",
+        "displayName": "Field Bg",
+        "canonical": "#191919",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "summary-bg": {
+        "role": "neutral",
+        "displayName": "Summary Bg",
+        "canonical": "#171717",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "next-steps-bg": {
+        "role": "neutral",
+        "displayName": "Next Steps Bg",
+        "canonical": "#181818",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "placeholder": {
+        "role": "neutral",
+        "displayName": "Placeholder",
+        "canonical": "#a39f96",
+        "tonalRamp": [
+          "oklch(15.00% 0.01369 86.85)",
+          "oklch(26.43% 0.01369 86.85)",
+          "oklch(37.86% 0.01369 86.85)",
+          "oklch(49.29% 0.01369 86.85)",
+          "oklch(60.71% 0.01369 86.85)",
+          "oklch(72.14% 0.01369 86.85)",
+          "oklch(83.57% 0.01369 86.85)",
+          "oklch(95.00% 0.01369 86.85)"
+        ]
+      },
+      "action-line": {
+        "role": "neutral",
+        "displayName": "Action Line",
+        "canonical": "#ece9e18a",
+        "tonalRamp": [
+          "oklch(15.00% 0.01117 89.73)",
+          "oklch(26.43% 0.01117 89.73)",
+          "oklch(37.86% 0.01117 89.73)",
+          "oklch(49.29% 0.01117 89.73)",
+          "oklch(60.71% 0.01117 89.73)",
+          "oklch(72.14% 0.01117 89.73)",
+          "oklch(83.57% 0.01117 89.73)",
+          "oklch(95.00% 0.01117 89.73)"
+        ]
+      },
+      "field-line": {
+        "role": "neutral",
+        "displayName": "Field Line",
+        "canonical": "#ece9e13d",
+        "tonalRamp": [
+          "oklch(15.00% 0.01117 89.73)",
+          "oklch(26.43% 0.01117 89.73)",
+          "oklch(37.86% 0.01117 89.73)",
+          "oklch(49.29% 0.01117 89.73)",
+          "oklch(60.71% 0.01117 89.73)",
+          "oklch(72.14% 0.01117 89.73)",
+          "oklch(83.57% 0.01117 89.73)",
+          "oklch(95.00% 0.01117 89.73)"
+        ]
+      },
+      "error-text": {
+        "role": "neutral",
+        "displayName": "Error Text",
+        "canonical": "#ffb8a6",
+        "tonalRamp": [
+          "oklch(15.00% 0.08684 34.74)",
+          "oklch(26.43% 0.08684 34.74)",
+          "oklch(37.86% 0.08684 34.74)",
+          "oklch(49.29% 0.08684 34.74)",
+          "oklch(60.71% 0.08684 34.74)",
+          "oklch(72.14% 0.08684 34.74)",
+          "oklch(83.57% 0.08684 34.74)",
+          "oklch(95.00% 0.08684 34.74)"
+        ]
+      },
+      "error-line": {
+        "role": "neutral",
+        "displayName": "Error Line",
+        "canonical": "#ad6655",
+        "tonalRamp": [
+          "oklch(15.00% 0.09580 34.32)",
+          "oklch(26.43% 0.09580 34.32)",
+          "oklch(37.86% 0.09580 34.32)",
+          "oklch(49.29% 0.09580 34.32)",
+          "oklch(60.71% 0.09580 34.32)",
+          "oklch(72.14% 0.09580 34.32)",
+          "oklch(83.57% 0.09580 34.32)",
+          "oklch(95.00% 0.09580 34.32)"
+        ]
+      },
+      "status-ready": {
+        "role": "neutral",
+        "displayName": "Status Ready",
+        "canonical": "#b6cb95",
+        "tonalRamp": [
+          "oklch(15.00% 0.07632 125.32)",
+          "oklch(26.43% 0.07632 125.32)",
+          "oklch(37.86% 0.07632 125.32)",
+          "oklch(49.29% 0.07632 125.32)",
+          "oklch(60.71% 0.07632 125.32)",
+          "oklch(72.14% 0.07632 125.32)",
+          "oklch(83.57% 0.07632 125.32)",
+          "oklch(95.00% 0.07632 125.32)"
+        ]
+      },
+      "payment-recorded": {
+        "role": "neutral",
+        "displayName": "Payment Recorded",
+        "canonical": "#d5dfbc",
+        "tonalRamp": [
+          "oklch(15.00% 0.04792 120.34)",
+          "oklch(26.43% 0.04792 120.34)",
+          "oklch(37.86% 0.04792 120.34)",
+          "oklch(49.29% 0.04792 120.34)",
+          "oklch(60.71% 0.04792 120.34)",
+          "oklch(72.14% 0.04792 120.34)",
+          "oklch(83.57% 0.04792 120.34)",
+          "oklch(95.00% 0.04792 120.34)"
+        ]
+      },
+      "runway-cobalt": {
+        "role": "primary",
+        "displayName": "Runway Cobalt",
+        "canonical": "#2648ed",
+        "tonalRamp": [
+          "oklch(15.00% 0.24728 266.65)",
+          "oklch(26.43% 0.24728 266.65)",
+          "oklch(37.86% 0.24728 266.65)",
+          "oklch(49.29% 0.24728 266.65)",
+          "oklch(60.71% 0.24728 266.65)",
+          "oklch(72.14% 0.24728 266.65)",
+          "oklch(83.57% 0.24728 266.65)",
+          "oklch(95.00% 0.24728 266.65)"
+        ]
+      },
+      "runway-chalk": {
+        "role": "neutral",
+        "displayName": "Runway Chalk",
+        "canonical": "#ecebe2",
+        "tonalRamp": [
+          "oklch(15.00% 0.01203 101.49)",
+          "oklch(26.43% 0.01203 101.49)",
+          "oklch(37.86% 0.01203 101.49)",
+          "oklch(49.29% 0.01203 101.49)",
+          "oklch(60.71% 0.01203 101.49)",
+          "oklch(72.14% 0.01203 101.49)",
+          "oklch(83.57% 0.01203 101.49)",
+          "oklch(95.00% 0.01203 101.49)"
+        ]
+      },
+      "runway-black": {
+        "role": "neutral",
+        "displayName": "Runway Black",
+        "canonical": "#101113",
+        "tonalRamp": [
+          "oklch(15.00% 0.00442 264.46)",
+          "oklch(26.43% 0.00442 264.46)",
+          "oklch(37.86% 0.00442 264.46)",
+          "oklch(49.29% 0.00442 264.46)",
+          "oklch(60.71% 0.00442 264.46)",
+          "oklch(72.14% 0.00442 264.46)",
+          "oklch(83.57% 0.00442 264.46)",
+          "oklch(95.00% 0.00442 264.46)"
+        ]
+      },
+      "cube-acid": {
+        "role": "primary",
+        "displayName": "Cube Acid",
+        "canonical": "#e5e625",
+        "tonalRamp": [
+          "oklch(15.00% 0.18850 110.00)",
+          "oklch(26.43% 0.18850 110.00)",
+          "oklch(37.86% 0.18850 110.00)",
+          "oklch(49.29% 0.18850 110.00)",
+          "oklch(60.71% 0.18850 110.00)",
+          "oklch(72.14% 0.18850 110.00)",
+          "oklch(83.57% 0.18850 110.00)",
+          "oklch(95.00% 0.18850 110.00)"
+        ]
+      },
+      "cube-black": {
+        "role": "neutral",
+        "displayName": "Cube Black",
+        "canonical": "#181818",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "cube-white": {
+        "role": "neutral",
+        "displayName": "Cube White",
+        "canonical": "#ece9e0",
+        "tonalRamp": [
+          "oklch(15.00% 0.01244 91.52)",
+          "oklch(26.43% 0.01244 91.52)",
+          "oklch(37.86% 0.01244 91.52)",
+          "oklch(49.29% 0.01244 91.52)",
+          "oklch(60.71% 0.01244 91.52)",
+          "oklch(72.14% 0.01244 91.52)",
+          "oklch(83.57% 0.01244 91.52)",
+          "oklch(95.00% 0.01244 91.52)"
+        ]
+      },
+      "painting-vermilion": {
+        "role": "primary",
+        "displayName": "Painting Vermilion",
+        "canonical": "#e13724",
+        "tonalRamp": [
+          "oklch(15.00% 0.20886 30.41)",
+          "oklch(26.43% 0.20886 30.41)",
+          "oklch(37.86% 0.20886 30.41)",
+          "oklch(49.29% 0.20886 30.41)",
+          "oklch(60.71% 0.20886 30.41)",
+          "oklch(72.14% 0.20886 30.41)",
+          "oklch(83.57% 0.20886 30.41)",
+          "oklch(95.00% 0.20886 30.41)"
+        ]
+      },
+      "painting-blush": {
+        "role": "neutral",
+        "displayName": "Painting Blush",
+        "canonical": "#e4b4ac",
+        "tonalRamp": [
+          "oklch(15.00% 0.05728 29.27)",
+          "oklch(26.43% 0.05728 29.27)",
+          "oklch(37.86% 0.05728 29.27)",
+          "oklch(49.29% 0.05728 29.27)",
+          "oklch(60.71% 0.05728 29.27)",
+          "oklch(72.14% 0.05728 29.27)",
+          "oklch(83.57% 0.05728 29.27)",
+          "oklch(95.00% 0.05728 29.27)"
+        ]
+      },
+      "painting-ink": {
+        "role": "neutral",
+        "displayName": "Painting Ink",
+        "canonical": "#191516",
+        "tonalRamp": [
+          "oklch(15.00% 0.00672 0.79)",
+          "oklch(26.43% 0.00672 0.79)",
+          "oklch(37.86% 0.00672 0.79)",
+          "oklch(49.29% 0.00672 0.79)",
+          "oklch(60.71% 0.00672 0.79)",
+          "oklch(72.14% 0.00672 0.79)",
+          "oklch(83.57% 0.00672 0.79)",
+          "oklch(95.00% 0.00672 0.79)"
+        ]
+      },
+      "procession-sky": {
+        "role": "primary",
+        "displayName": "Procession Sky",
+        "canonical": "#789cbd",
+        "tonalRamp": [
+          "oklch(15.00% 0.06318 246.54)",
+          "oklch(26.43% 0.06318 246.54)",
+          "oklch(37.86% 0.06318 246.54)",
+          "oklch(49.29% 0.06318 246.54)",
+          "oklch(60.71% 0.06318 246.54)",
+          "oklch(72.14% 0.06318 246.54)",
+          "oklch(83.57% 0.06318 246.54)",
+          "oklch(95.00% 0.06318 246.54)"
+        ]
+      },
+      "procession-indigo": {
+        "role": "neutral",
+        "displayName": "Procession Indigo",
+        "canonical": "#25395d",
+        "tonalRamp": [
+          "oklch(15.00% 0.06842 261.44)",
+          "oklch(26.43% 0.06842 261.44)",
+          "oklch(37.86% 0.06842 261.44)",
+          "oklch(49.29% 0.06842 261.44)",
+          "oklch(60.71% 0.06842 261.44)",
+          "oklch(72.14% 0.06842 261.44)",
+          "oklch(83.57% 0.06842 261.44)",
+          "oklch(95.00% 0.06842 261.44)"
+        ]
+      },
+      "procession-cream": {
+        "role": "neutral",
+        "displayName": "Procession Cream",
+        "canonical": "#ebe3d2",
+        "tonalRamp": [
+          "oklch(15.00% 0.02429 85.79)",
+          "oklch(26.43% 0.02429 85.79)",
+          "oklch(37.86% 0.02429 85.79)",
+          "oklch(49.29% 0.02429 85.79)",
+          "oklch(60.71% 0.02429 85.79)",
+          "oklch(72.14% 0.02429 85.79)",
+          "oklch(83.57% 0.02429 85.79)",
+          "oklch(95.00% 0.02429 85.79)"
+        ]
+      },
+      "installation-orange": {
+        "role": "primary",
+        "displayName": "Installation Orange",
+        "canonical": "#ee7732",
+        "tonalRamp": [
+          "oklch(15.00% 0.16682 47.22)",
+          "oklch(26.43% 0.16682 47.22)",
+          "oklch(37.86% 0.16682 47.22)",
+          "oklch(49.29% 0.16682 47.22)",
+          "oklch(60.71% 0.16682 47.22)",
+          "oklch(72.14% 0.16682 47.22)",
+          "oklch(83.57% 0.16682 47.22)",
+          "oklch(95.00% 0.16682 47.22)"
+        ]
+      },
+      "installation-charcoal": {
+        "role": "neutral",
+        "displayName": "Installation Charcoal",
+        "canonical": "#292b2b",
+        "tonalRamp": [
+          "oklch(15.00% 0.00287 197.00)",
+          "oklch(26.43% 0.00287 197.00)",
+          "oklch(37.86% 0.00287 197.00)",
+          "oklch(49.29% 0.00287 197.00)",
+          "oklch(60.71% 0.00287 197.00)",
+          "oklch(72.14% 0.00287 197.00)",
+          "oklch(83.57% 0.00287 197.00)",
+          "oklch(95.00% 0.00287 197.00)"
+        ]
+      },
+      "installation-concrete": {
+        "role": "neutral",
+        "displayName": "Installation Concrete",
+        "canonical": "#c4beb1",
+        "tonalRamp": [
+          "oklch(15.00% 0.01918 86.16)",
+          "oklch(26.43% 0.01918 86.16)",
+          "oklch(37.86% 0.01918 86.16)",
+          "oklch(49.29% 0.01918 86.16)",
+          "oklch(60.71% 0.01918 86.16)",
+          "oklch(72.14% 0.01918 86.16)",
+          "oklch(83.57% 0.01918 86.16)",
+          "oklch(95.00% 0.01918 86.16)"
+        ]
+      },
+      "coffee-oxblood": {
+        "role": "primary",
+        "displayName": "Coffee Oxblood",
+        "canonical": "#74262e",
+        "tonalRamp": [
+          "oklch(15.00% 0.10941 17.84)",
+          "oklch(26.43% 0.10941 17.84)",
+          "oklch(37.86% 0.10941 17.84)",
+          "oklch(49.29% 0.10941 17.84)",
+          "oklch(60.71% 0.10941 17.84)",
+          "oklch(72.14% 0.10941 17.84)",
+          "oklch(83.57% 0.10941 17.84)",
+          "oklch(95.00% 0.10941 17.84)"
+        ]
+      },
+      "coffee-cream": {
+        "role": "neutral",
+        "displayName": "Coffee Cream",
+        "canonical": "#eee1c9",
+        "tonalRamp": [
+          "oklch(15.00% 0.03490 82.91)",
+          "oklch(26.43% 0.03490 82.91)",
+          "oklch(37.86% 0.03490 82.91)",
+          "oklch(49.29% 0.03490 82.91)",
+          "oklch(60.71% 0.03490 82.91)",
+          "oklch(72.14% 0.03490 82.91)",
+          "oklch(83.57% 0.03490 82.91)",
+          "oklch(95.00% 0.03490 82.91)"
+        ]
+      },
+      "coffee-espresso": {
+        "role": "neutral",
+        "displayName": "Coffee Espresso",
+        "canonical": "#2e201d",
+        "tonalRamp": [
+          "oklch(15.00% 0.02262 32.34)",
+          "oklch(26.43% 0.02262 32.34)",
+          "oklch(37.86% 0.02262 32.34)",
+          "oklch(49.29% 0.02262 32.34)",
+          "oklch(60.71% 0.02262 32.34)",
+          "oklch(72.14% 0.02262 32.34)",
+          "oklch(83.57% 0.02262 32.34)",
+          "oklch(95.00% 0.02262 32.34)"
+        ]
+      },
+      "tryout-mint": {
+        "role": "primary",
+        "displayName": "Tryout Mint",
+        "canonical": "#a6cdb2",
+        "tonalRamp": [
+          "oklch(15.00% 0.05603 154.77)",
+          "oklch(26.43% 0.05603 154.77)",
+          "oklch(37.86% 0.05603 154.77)",
+          "oklch(49.29% 0.05603 154.77)",
+          "oklch(60.71% 0.05603 154.77)",
+          "oklch(72.14% 0.05603 154.77)",
+          "oklch(83.57% 0.05603 154.77)",
+          "oklch(95.00% 0.05603 154.77)"
+        ]
+      },
+      "tryout-forest": {
+        "role": "neutral",
+        "displayName": "Tryout Forest",
+        "canonical": "#204a38",
+        "tonalRamp": [
+          "oklch(15.00% 0.05697 163.41)",
+          "oklch(26.43% 0.05697 163.41)",
+          "oklch(37.86% 0.05697 163.41)",
+          "oklch(49.29% 0.05697 163.41)",
+          "oklch(60.71% 0.05697 163.41)",
+          "oklch(72.14% 0.05697 163.41)",
+          "oklch(83.57% 0.05697 163.41)",
+          "oklch(95.00% 0.05697 163.41)"
+        ]
+      },
+      "tryout-ivory": {
+        "role": "neutral",
+        "displayName": "Tryout Ivory",
+        "canonical": "#ede5d2",
+        "tonalRamp": [
+          "oklch(15.00% 0.02672 87.86)",
+          "oklch(26.43% 0.02672 87.86)",
+          "oklch(37.86% 0.02672 87.86)",
+          "oklch(49.29% 0.02672 87.86)",
+          "oklch(60.71% 0.02672 87.86)",
+          "oklch(72.14% 0.02672 87.86)",
+          "oklch(83.57% 0.02672 87.86)",
+          "oklch(95.00% 0.02672 87.86)"
+        ]
+      },
+      "trail-sunflower": {
+        "role": "primary",
+        "displayName": "Trail Sunflower",
+        "canonical": "#edbd39",
+        "tonalRamp": [
+          "oklch(15.00% 0.15057 87.63)",
+          "oklch(26.43% 0.15057 87.63)",
+          "oklch(37.86% 0.15057 87.63)",
+          "oklch(49.29% 0.15057 87.63)",
+          "oklch(60.71% 0.15057 87.63)",
+          "oklch(72.14% 0.15057 87.63)",
+          "oklch(83.57% 0.15057 87.63)",
+          "oklch(95.00% 0.15057 87.63)"
+        ]
+      },
+      "trail-navy": {
+        "role": "neutral",
+        "displayName": "Trail Navy",
+        "canonical": "#202d44",
+        "tonalRamp": [
+          "oklch(15.00% 0.04575 261.39)",
+          "oklch(26.43% 0.04575 261.39)",
+          "oklch(37.86% 0.04575 261.39)",
+          "oklch(49.29% 0.04575 261.39)",
+          "oklch(60.71% 0.04575 261.39)",
+          "oklch(72.14% 0.04575 261.39)",
+          "oklch(83.57% 0.04575 261.39)",
+          "oklch(95.00% 0.04575 261.39)"
+        ]
+      },
+      "trail-stone": {
+        "role": "neutral",
+        "displayName": "Trail Stone",
+        "canonical": "#cec7b8",
+        "tonalRamp": [
+          "oklch(15.00% 0.02195 85.95)",
+          "oklch(26.43% 0.02195 85.95)",
+          "oklch(37.86% 0.02195 85.95)",
+          "oklch(49.29% 0.02195 85.95)",
+          "oklch(60.71% 0.02195 85.95)",
+          "oklch(72.14% 0.02195 85.95)",
+          "oklch(83.57% 0.02195 85.95)",
+          "oklch(95.00% 0.02195 85.95)"
+        ]
+      },
+      "performance-fuchsia": {
+        "role": "primary",
+        "displayName": "Performance Fuchsia",
+        "canonical": "#dc368f",
+        "tonalRamp": [
+          "oklch(15.00% 0.21473 352.84)",
+          "oklch(26.43% 0.21473 352.84)",
+          "oklch(37.86% 0.21473 352.84)",
+          "oklch(49.29% 0.21473 352.84)",
+          "oklch(60.71% 0.21473 352.84)",
+          "oklch(72.14% 0.21473 352.84)",
+          "oklch(83.57% 0.21473 352.84)",
+          "oklch(95.00% 0.21473 352.84)"
+        ]
+      },
+      "performance-scarlet": {
+        "role": "neutral",
+        "displayName": "Performance Scarlet",
+        "canonical": "#e83235",
+        "tonalRamp": [
+          "oklch(15.00% 0.21684 25.90)",
+          "oklch(26.43% 0.21684 25.90)",
+          "oklch(37.86% 0.21684 25.90)",
+          "oklch(49.29% 0.21684 25.90)",
+          "oklch(60.71% 0.21684 25.90)",
+          "oklch(72.14% 0.21684 25.90)",
+          "oklch(83.57% 0.21684 25.90)",
+          "oklch(95.00% 0.21684 25.90)"
+        ]
+      },
+      "performance-black": {
+        "role": "neutral",
+        "displayName": "Performance Black",
+        "canonical": "#1d171c",
+        "tonalRamp": [
+          "oklch(15.00% 0.01339 331.64)",
+          "oklch(26.43% 0.01339 331.64)",
+          "oklch(37.86% 0.01339 331.64)",
+          "oklch(49.29% 0.01339 331.64)",
+          "oklch(60.71% 0.01339 331.64)",
+          "oklch(72.14% 0.01339 331.64)",
+          "oklch(83.57% 0.01339 331.64)",
+          "oklch(95.00% 0.01339 331.64)"
+        ]
+      },
+      "portrait-lavender": {
+        "role": "primary",
+        "displayName": "Portrait Lavender",
+        "canonical": "#ac98ce",
+        "tonalRamp": [
+          "oklch(15.00% 0.08011 301.37)",
+          "oklch(26.43% 0.08011 301.37)",
+          "oklch(37.86% 0.08011 301.37)",
+          "oklch(49.29% 0.08011 301.37)",
+          "oklch(60.71% 0.08011 301.37)",
+          "oklch(72.14% 0.08011 301.37)",
+          "oklch(83.57% 0.08011 301.37)",
+          "oklch(95.00% 0.08011 301.37)"
+        ]
+      },
+      "portrait-oxblood": {
+        "role": "neutral",
+        "displayName": "Portrait Oxblood",
+        "canonical": "#6d2937",
+        "tonalRamp": [
+          "oklch(15.00% 0.09738 10.26)",
+          "oklch(26.43% 0.09738 10.26)",
+          "oklch(37.86% 0.09738 10.26)",
+          "oklch(49.29% 0.09738 10.26)",
+          "oklch(60.71% 0.09738 10.26)",
+          "oklch(72.14% 0.09738 10.26)",
+          "oklch(83.57% 0.09738 10.26)",
+          "oklch(95.00% 0.09738 10.26)"
+        ]
+      },
+      "portrait-ivory": {
+        "role": "neutral",
+        "displayName": "Portrait Ivory",
+        "canonical": "#eee8da",
+        "tonalRamp": [
+          "oklch(15.00% 0.01975 87.52)",
+          "oklch(26.43% 0.01975 87.52)",
+          "oklch(37.86% 0.01975 87.52)",
+          "oklch(49.29% 0.01975 87.52)",
+          "oklch(60.71% 0.01975 87.52)",
+          "oklch(72.14% 0.01975 87.52)",
+          "oklch(83.57% 0.01975 87.52)",
+          "oklch(95.00% 0.01975 87.52)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Shared editorial page title."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Shared secondary editorial heading."
+      },
+      "reel-title": {
+        "displayName": "Reel Title",
+        "purpose": "Container-scaled campaign reel introduction and related editorial panels."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Montreal paragraph prose; body element itself uses line-height 1.5."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Fixed perimeter navigation and related Mono controls."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "Bit identity lettering; the header has a local 31px size."
+      },
+      "tape-caption": {
+        "displayName": "Tape Caption",
+        "purpose": "Pixel title beneath the selected physical tape."
+      },
+      "field": {
+        "displayName": "Field",
+        "purpose": "Editable sentence-case operating values; mobile booking values are 16px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "crt-shell",
+        "value": "inset 0 0 35px #000, 0 0 20px #000",
+        "purpose": "Curved screen enclosure and physical black surround."
+      },
+      {
+        "name": "crt-vignette",
+        "value": "inset 0 0 45px 10px #0007, inset 0 0 5px 2px #000",
+        "purpose": "Desktop glass-edge falloff without an input-intercepting overlay."
+      },
+      {
+        "name": "crt-vignette-mobile",
+        "value": "inset 0 0 22px 4px #0007, inset 0 0 3px 1px #000",
+        "purpose": "Reduced edge falloff at the compact breakpoint."
+      },
+      {
+        "name": "fallback-sleeve",
+        "value": "4px 6px 16px #0009",
+        "purpose": "Physical sleeve depth before the WebGL scene is ready."
+      },
+      {
+        "name": "profile-sleeve",
+        "value": "inset 2px 0 0 #aaa59650, inset -2px 0 0 #000, 1px 2px 5px #0007",
+        "purpose": "Small profile sleeve folds and offset paper shadow."
+      }
+    ],
+    "motion": [
+      {
+        "name": "action-state",
+        "value": "background .2s, color .2s",
+        "purpose": "Outlined action hover inversion."
+      },
+      {
+        "name": "reel-glide",
+        "value": ".55s power3.out",
+        "purpose": "GSAP desktop scrollLeft glide; reduced motion uses immediate updates."
+      },
+      {
+        "name": "screen-grayscale",
+        "value": "filter .35s",
+        "purpose": "User-selected B&W screen state."
+      },
+      {
+        "name": "scene-fade",
+        "value": "opacity .5s",
+        "purpose": "WebGL readiness reveal over the meaningful DOM sleeve fallback."
+      },
+      {
+        "name": "caption-in",
+        "value": ".35s ease-out; opacity .6 to 1; blur(1px) to blur(0)",
+        "purpose": "Selected tape caption transition."
+      },
+      {
+        "name": "profile-reveal",
+        "value": "transform .5s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Profile cassette/sleeve hover and focus movement."
+      },
+      {
+        "name": "tape-damping",
+        "value": "1 - exp(-speed * dt); speed 19 dragging, 8.8 settling, 5.5 entrance, 4.5 tilt",
+        "purpose": "Demand-rendered physical carousel without continuous idle animation."
+      },
+      {
+        "name": "tape-peek",
+        "value": "speed 2.6 opening, 5.8 closing; sleeve -4, cassette +21 model units",
+        "purpose": "Physical cassette reveal at the centred selection."
+      },
+      {
+        "name": "diagram-cycles",
+        "value": "3s–45s; CSS transforms/stroke animation plus 8s SVG animateMotion",
+        "purpose": "Ten original SVG studies; pause both CSS and actual SMIL, respect visibility and reduced motion."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "global duration .001ms, one iteration; reel transitions none; SVG animations none; scene immediate",
+        "purpose": "Recorded source contract, including live observed SVG pause/replacement cleanup."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "600px"
+      },
+      {
+        "name": "tape-scene-mobile",
+        "value": "700px"
+      },
+      {
+        "name": "shell-tablet-and-booking-stack",
+        "value": "850px"
+      },
+      {
+        "name": "owner-density",
+        "value": "1000px"
+      },
+      {
+        "name": "reel-vertical-max",
+        "value": "1024px"
+      },
+      {
+        "name": "reel-horizontal-min",
+        "value": "1025px"
+      },
+      {
+        "name": "page-density",
+        "value": "1150px"
+      },
+      {
+        "name": "wide-screen",
+        "value": "1700px"
+      },
+      {
+        "name": "short-desktop-height",
+        "value": "730px"
+      },
+      {
+        "name": "short-mobile-height",
+        "value": "740px"
+      },
+      {
+        "name": "short-reel-profile-height",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Outlined action",
+      "kind": "button",
+      "refersTo": "action",
+      "description": "Full-width square production action; hover inverts the warm screen ink.",
+      "html": "<button type=\"button\" class=\"ds-action\"><span>Build this campaign</span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></button>",
+      "css": ".ds-action{width:100%;min-height:53px;padding:17px 19px;border:1px solid #ece9e18a;border-radius:0;display:inline-flex;justify-content:space-between;align-items:center;gap:30px;background:transparent;color:var(--ink,#ece9e1);font-family:var(--font-mono,Mono,monospace);font-size:12px;line-height:1.3;text-transform:uppercase;text-align:left;cursor:pointer;transition:background .2s,color .2s}.ds-action svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.2;flex-shrink:0}.ds-action:hover{background:var(--ink,#ece9e1);color:#111}.ds-action:disabled{opacity:.5;cursor:wait}.ds-action:focus-visible,.ds-text-button:focus-visible,.ds-field:focus-visible,.ds-nav a:focus-visible,.ds-filter:focus-visible,.ds-photo:focus-visible,.ds-vhs:focus-visible,.ds-motion-toggle:focus-visible{outline:2px solid var(--ink,#ece9e1);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-action{transition:none}}"
+    },
+    {
+      "name": "Underlined text action",
+      "kind": "button",
+      "refersTo": "text-button",
+      "description": "Small secondary action used for removal, refresh and other local operations.",
+      "html": "<button type=\"button\" class=\"ds-text-button\">Remove logo</button>",
+      "css": ".ds-text-button{border:0;border-bottom:1px solid var(--quiet,#b5b2aa);border-radius:0;padding:4px 0;background:transparent;color:var(--ink,#ece9e1);font-family:var(--font-mono,Mono,monospace);font-size:11px;text-transform:uppercase;cursor:pointer}.ds-text-button:hover{color:#fff;border-color:#fff}.ds-text-button:disabled{opacity:.5;cursor:wait}.ds-action:focus-visible,.ds-text-button:focus-visible,.ds-field:focus-visible,.ds-nav a:focus-visible,.ds-filter:focus-visible,.ds-photo:focus-visible,.ds-vhs:focus-visible,.ds-motion-toggle:focus-visible{outline:2px solid var(--ink,#ece9e1);outline-offset:6px}"
+    },
+    {
+      "name": "Labelled operating field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Square charcoal field with a persistent label and sentence-case value.",
+      "html": "<label class=\"ds-field-label\" for=\"ds-brand-name\">Brand name<input class=\"ds-field\" id=\"ds-brand-name\" name=\"brand\" placeholder=\"Your brand\" maxlength=\"24\" /></label>",
+      "css": ".ds-field-label{display:flex;flex-direction:column;gap:10px;color:var(--ink,#ece9e1);font-family:var(--font-mono,Mono,monospace);font-size:11px;line-height:1.4;text-transform:uppercase}.ds-field{width:100%;background:#191919;color:var(--ink,#ece9e1);border:1px solid #ece9e13d;padding:14px 13px;min-height:48px;border-radius:0;font-family:var(--font-sans,Montreal,Arial,sans-serif);font-size:15px;line-height:1.35;text-transform:none;caret-color:var(--ink,#ece9e1)}.ds-field::placeholder{color:#a39f96}.ds-field:focus-visible{outline:2px solid var(--ink,#ece9e1);outline-offset:2px}.ds-field[aria-invalid=\"true\"]{border-color:#ad6655}@media(max-width:600px){.ds-field{font-size:16px;padding:13px 11px}}"
+    },
+    {
+      "name": "Perimeter navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Compact Mono links with native full-page route navigation, square current-page marker and transparent mobile hit regions; SiteLink renders ordinary anchors.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"/campaigns\" aria-current=\"page\">Campaigns</a><a href=\"/how-it-works\">How</a><a href=\"/about\">About</a></nav>",
+      "css": ".ds-nav{display:flex;justify-content:flex-end;gap:26px;padding-top:9px;color:var(--ink,#ece9e1);font-family:var(--font-mono,Mono,monospace);font-size:12px;line-height:1.1;letter-spacing:-.025em;text-transform:uppercase}.ds-nav a{position:relative;color:inherit;text-decoration:none;transition:color .2s}.ds-nav a:hover{color:#fff}.ds-nav a[aria-current=\"page\"]:before{content:\"\";position:absolute;width:7px;height:7px;background:var(--ink,#ece9e1);right:calc(100% + 7px);top:1px}.ds-action:focus-visible,.ds-text-button:focus-visible,.ds-field:focus-visible,.ds-nav a:focus-visible,.ds-filter:focus-visible,.ds-photo:focus-visible,.ds-vhs:focus-visible,.ds-motion-toggle:focus-visible{outline:2px solid var(--ink,#ece9e1);outline-offset:6px}@media(max-width:600px){.ds-nav{gap:20px;font-size:10px;line-height:1.2;padding-top:5px}.ds-nav a:after{content:\"\";position:absolute;width:max(100%,44px);height:44px;left:50%;top:50%;transform:translate(-50%,-50%)}.ds-nav a[aria-current=\"page\"]:before{width:5px;height:5px;right:calc(100% + 5px);top:2px}}@media(prefers-reduced-motion:reduce){.ds-nav a{transition:none}}"
+    },
+    {
+      "name": "Catalogue filter tab",
+      "kind": "chip",
+      "refersTo": "filter-tab",
+      "description": "Text-led category filter with explicit selected state and an ink underline.",
+      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"Campaign category\"><button type=\"button\" class=\"ds-filter\" aria-pressed=\"true\">All formats</button><button type=\"button\" class=\"ds-filter\" aria-pressed=\"false\">Fashion</button><button type=\"button\" class=\"ds-filter\" aria-pressed=\"false\">Art</button></div>",
+      "css": ".ds-filters{display:flex;gap:25px;flex-wrap:wrap}.ds-filter{font-family:var(--font-mono,Mono,monospace);font-size:11px;text-transform:uppercase;color:var(--quiet,#b5b2aa);padding:5px 0;background:transparent;border:0;border-radius:0;cursor:pointer}.ds-filter[aria-pressed=\"true\"]{color:var(--ink,#ece9e1);border-bottom:1px solid var(--ink,#ece9e1)}.ds-action:focus-visible,.ds-text-button:focus-visible,.ds-field:focus-visible,.ds-nav a:focus-visible,.ds-filter:focus-visible,.ds-photo:focus-visible,.ds-vhs:focus-visible,.ds-motion-toggle:focus-visible{outline:2px solid var(--ink,#ece9e1);outline-offset:6px}"
+    },
+    {
+      "name": "Booking summary container",
+      "kind": "card",
+      "refersTo": "booking-summary",
+      "description": "Tonal square summary with ruled estimate rows; the sample does not fabricate commercial amounts.",
+      "html": "<aside class=\"ds-summary\" aria-label=\"Campaign summary\"><div class=\"ds-summary-content\"><span>01 / CAMPAIGN CONCEPT</span><h2>The Street Runway</h2><p>Starting production estimate</p><dl><div><dt>Market</dt><dd>New York / USD</dd></div><div class=\"ds-summary-total\"><dt>Final quote</dt><dd>After scope review</dd></div></dl><p class=\"ds-summary-note\">Date, location and scope are approved before payment.</p></div></aside>",
+      "css": ".ds-summary{background:#171717;color:var(--ink,#ece9e1);border-radius:0;min-width:0}.ds-summary-content{padding:27px}.ds-summary-content>span{font-family:var(--font-mono,Mono,monospace);font-size:9px;color:var(--quiet,#b5b2aa)}.ds-summary h2{font-family:var(--font-display,Advercase,Georgia,serif);font-size:33px;line-height:.99;letter-spacing:-.035em;font-weight:400;margin:12px 0}.ds-summary p{font-family:var(--font-sans,Montreal,Arial,sans-serif);font-size:12px;line-height:1.55;color:var(--quiet,#b5b2aa);margin:0}.ds-summary dl{margin:25px 0 15px;padding:0}.ds-summary dl>div{display:flex;justify-content:space-between;gap:25px;font-family:var(--font-sans,Montreal,Arial,sans-serif);font-size:12px;color:var(--quiet,#b5b2aa);padding:11px 0}.ds-summary dd{margin:0;white-space:nowrap}.ds-summary .ds-summary-total{padding-top:17px;border-top:1px solid var(--line,#ece9e12e);color:var(--ink,#ece9e1);font-size:14px}.ds-summary .ds-summary-note{border-top:1px solid var(--line,#ece9e12e);padding-top:20px;font-size:11px}"
+    },
+    {
+      "name": "Concept photographic panel",
+      "kind": "custom",
+      "description": "Square image panel and concept caption; the inline SVG is a structural placeholder, not campaign artwork.",
+      "html": "<figure class=\"ds-photo-panel\"><button type=\"button\" class=\"ds-photo\" aria-label=\"Enlarge campaign concept photograph\"><svg class=\"ds-photo-placeholder\" viewBox=\"0 0 600 400\" role=\"img\" aria-label=\"Concept photograph placeholder\"><rect width=\"600\" height=\"400\" fill=\"#202020\"/><path d=\"M40 40H560V360H40Z\" fill=\"none\" stroke=\"#b5b2aa\" opacity=\".25\"/><text x=\"300\" y=\"205\" text-anchor=\"middle\" fill=\"#b5b2aa\" font-family=\"monospace\" font-size=\"12\">CONCEPT PHOTOGRAPH</text></svg><span class=\"ds-photo-enlarge\">[Enlarge ↗]</span></button><figcaption><span>01 / Art direction</span><span>Concept visualization</span></figcaption></figure>",
+      "css": ".ds-photo-panel{display:flex;flex-direction:column;gap:8px;margin:0;color:var(--quiet,#b5b2aa);font-family:var(--font-mono,Mono,monospace);font-weight:500;text-transform:uppercase;letter-spacing:-.025em}.ds-photo{position:relative;display:block;width:100%;padding:0;border:0;border-radius:0;background:#151515;overflow:hidden;cursor:pointer}.ds-photo-placeholder{display:block;width:100%;height:100%;object-fit:cover}.ds-photo-enlarge{position:absolute;left:18px;bottom:16px;font-size:11px;line-height:1.2;color:#fff;text-shadow:0 1px 5px #000;opacity:0;transform:translateY(3px);transition:opacity .2s,transform .2s}.ds-photo:hover .ds-photo-enlarge,.ds-photo:focus-visible .ds-photo-enlarge{opacity:1;transform:none}.ds-photo-panel figcaption{display:flex;justify-content:space-between;gap:15px;align-items:baseline;font-size:10px;line-height:1.1}.ds-photo-panel figcaption>span:last-child{font-size:9px;opacity:.75}.ds-action:focus-visible,.ds-text-button:focus-visible,.ds-field:focus-visible,.ds-nav a:focus-visible,.ds-filter:focus-visible,.ds-photo:focus-visible,.ds-vhs:focus-visible,.ds-motion-toggle:focus-visible{outline:2px solid var(--ink,#ece9e1);outline-offset:6px}@media(max-width:1024px){.ds-photo-enlarge{opacity:1}}@media(prefers-reduced-motion:reduce){.ds-photo-enlarge{transition:none}}"
+    },
+    {
+      "name": "Profile VHS object",
+      "kind": "custom",
+      "description": "Small profile sleeve with the actual physical silhouette and hover/focus cassette reveal; inline artwork is a structural sample.",
+      "html": "<a class=\"ds-vhs\" href=\"/campaigns\" aria-label=\"Explore the campaign tapes\"><span class=\"ds-vhs-cassette\" aria-hidden=\"true\"><i></i><i></i></span><span class=\"ds-vhs-sleeve\" aria-hidden=\"true\"><span class=\"ds-vhs-brand\">AICANFEEL</span><svg class=\"ds-vhs-art\" viewBox=\"0 0 82 62\"><rect width=\"82\" height=\"62\" fill=\"#202020\"/><path d=\"M10 50 32 10 50 50 70 22\" fill=\"none\" stroke=\"#b5b2aa\" stroke-width=\"1\"/></svg><span class=\"ds-vhs-title\">STREET<br/>VIDEO</span><span class=\"ds-vhs-edition\">OFFLINE / CAMPAIGN CONCEPTS</span></span></a>",
+      "css": ".ds-vhs{position:relative;display:block;width:92px;height:139px;margin:0 auto;isolation:isolate;perspective:600px;outline-offset:8px;color:var(--ink,#ece9e1);text-decoration:none}.ds-vhs-cassette{position:absolute;inset:5px 7px 2px;background:#101010;border:1px solid #333;border-radius:5px;display:flex;align-items:center;justify-content:space-evenly;box-shadow:inset 0 0 0 2px #090909;transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-vhs-cassette i{width:23px;height:23px;border:5px solid #4a4841;background:#111;border-radius:50%;box-shadow:inset 0 0 0 3px #272622}.ds-vhs-sleeve{position:absolute;inset:0;display:flex;flex-direction:column;overflow:hidden;background:#171716;border:1px solid #77736a;box-shadow:inset 2px 0 0 #aaa59650,inset -2px 0 0 #000,1px 2px 5px #0007;transform:rotateY(-5deg);transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-vhs-brand{font-family:var(--font-display,Advercase,Georgia,serif);font-size:17px;letter-spacing:-.04em;line-height:1.05;padding:5px 2px 2px}.ds-vhs-art{display:block;width:calc(100% - 10px);height:62px;margin:0 5px;border:1px solid #d7d2c04a}.ds-vhs-title{font-family:var(--font-display,Advercase,Georgia,serif);font-size:23px;line-height:.78;letter-spacing:-.035em;padding:6px 2px 2px;text-align:center}.ds-vhs-edition{font-family:var(--font-mono,Mono,monospace);font-size:3.3px;line-height:1.2;letter-spacing:-.02em;margin-top:auto;padding:4px 2px 5px;color:var(--quiet,#b5b2aa)}.ds-vhs:hover .ds-vhs-cassette,.ds-vhs:focus-visible .ds-vhs-cassette{transform:translate(12px,-10px) rotate(2deg)}.ds-vhs:hover .ds-vhs-sleeve,.ds-vhs:focus-visible .ds-vhs-sleeve{transform:translate(-2px,1px) rotateY(-10deg)}.ds-action:focus-visible,.ds-text-button:focus-visible,.ds-field:focus-visible,.ds-nav a:focus-visible,.ds-filter:focus-visible,.ds-photo:focus-visible,.ds-vhs:focus-visible,.ds-motion-toggle:focus-visible{outline:2px solid var(--ink,#ece9e1);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-vhs-cassette,.ds-vhs-sleeve{transition:none}}"
+    },
+    {
+      "name": "Motion placement study",
+      "kind": "custom",
+      "description": "Self-contained static excerpt of the original installation diagram grammar; application pause and personalisation live in the actual component.",
+      "html": "<div class=\"ds-motion\"><svg class=\"ds-motion-svg\" viewBox=\"0 0 800 600\" role=\"img\" aria-labelledby=\"ds-motion-title ds-motion-desc\"><title id=\"ds-motion-title\">Campaign placement study</title><desc id=\"ds-motion-desc\">A static geometric excerpt showing a circular installation and local brand position.</desc><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g class=\"ds-motion-labels\" stroke=\"none\" fill=\"currentColor\"><text x=\"44\" y=\"58\">AICANFEEL</text><text x=\"756\" y=\"58\" text-anchor=\"end\">OFFLINE / IN MOTION</text></g><g opacity=\".25\"><path d=\"M38 104H50M44 98V110M750 104H762M756 98V110M38 496H50M44 490V502M750 496H762M756 490V502\"/></g><circle cx=\"400\" cy=\"312\" r=\"122\"/><ellipse cx=\"400\" cy=\"312\" rx=\"175\" ry=\"46\"/><ellipse cx=\"400\" cy=\"312\" rx=\"46\" ry=\"175\"/><circle cx=\"400\" cy=\"312\" r=\"32\"/><text x=\"400\" y=\"320\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-family=\"monospace\" font-size=\"12\">YOUR BRAND</text><text class=\"ds-motion-footer\" x=\"44\" y=\"553\" fill=\"currentColor\" stroke=\"none\">INSTALLATION / PLACEMENT STUDY</text></g></svg><span class=\"ds-motion-note\">BRAND PLACEMENT STUDY / NOT FINAL ARTWORK</span></div>",
+      "css": ".ds-motion{position:relative;min-width:0;background:#ee7732;color:#101113;overflow:hidden}.ds-motion-svg{display:block;width:100%;height:auto}.ds-motion-labels text{font-family:var(--font-mono,Mono,monospace);font-size:12px;letter-spacing:1.3px;font-weight:500}.ds-motion-footer{font-family:var(--font-mono,Mono,monospace);font-size:11px;letter-spacing:1.4px}.ds-motion-note{position:absolute;bottom:14px;left:16px;font-family:var(--font-mono,Mono,monospace);font-size:8px}"
+    },
+    {
+      "name": "Labelled receipt status",
+      "kind": "custom",
+      "description": "Ruled status banner with a small sage square and explicit explanatory text.",
+      "html": "<section class=\"ds-status\" aria-label=\"Request status\"><span class=\"ds-status-square\" aria-hidden=\"true\"></span><div><h2>Brief received</h2><p>Your production scope is reviewed before payment.</p></div></section>",
+      "css": ".ds-status{display:flex;align-items:flex-start;gap:20px;border-top:1px solid var(--line,#ece9e12e);border-bottom:1px solid var(--line,#ece9e12e);padding:28px 0;margin-bottom:40px;color:var(--ink,#ece9e1)}.ds-status-square{width:9px;height:9px;background:#b6cb95;flex-shrink:0;margin-top:10px}.ds-status h2{font-family:var(--font-display,Advercase,Georgia,serif);font-weight:400;font-size:30px;line-height:.99;letter-spacing:-.035em;margin:0 0 10px}.ds-status p{font-family:var(--font-sans,Montreal,Arial,sans-serif);font-size:14px;line-height:1.55;color:var(--quiet,#b5b2aa);max-width:700px;margin:0}@media(max-width:600px){.ds-status{gap:15px;padding:23px 0;margin-bottom:30px}.ds-status h2{font-size:28px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The CRT Campaign Archive",
+    "overview": "The visual authority is the user's pinned arcmarumo.com design: a black television screen, quietly luminous perimeter controls and a carousel of dimensional, weathered VHS sleeves. AICANFEEL supplies the identity and campaign artwork within that composition. Physical objects and photographs lead; compact metadata identifies the offer and the next action. The world is already defined in code and must remain coherent as screens are added.\n\nAdvercase gives editorial content a distinctive serif voice. Mono and Bit keep navigation, indexing and tape furniture deliberately mechanical. Black glass, smoky print, chipped sleeve folds and restrained inertia create material depth. Campaign colour belongs to the selected artwork or brand-placement study; the surrounding instrument stays dark and quiet.\n\nThere are two surface modes within this identity. Discovery surfaces use tapes, photographic reels and editorial rhythm. Booking, the private receipt and the owner production desk retain the CRT shell but use labelled fields, ruled records, explicit status and ordinary vertical scrolling. A precise working interface is an intended expression of the world.",
+    "keyCharacteristics": [
+      "Curved black CRT shell with fixed pixel/mono perimeter navigation.",
+      "Actual three-dimensional VHS sleeves with original campaign cover art.",
+      "Horizontal photographic narrative on desktop; vertical narrative on smaller screens.",
+      "Advercase editorial hierarchy with restrained, uppercase Mono metadata.",
+      "Square operating controls, fine rules, clear currencies and visible state.",
+      "Authored concept imagery and geometric SVG placement studies with honest labels."
+    ],
+    "rules": [
+      {
+        "name": "The Campaign Boundary Rule",
+        "body": "Keep campaign palettes inside artwork, selected campaign emphasis and the local placement study; retain the shared black/ink/quiet instrument around them.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Use Advercase for editorial titles and Mono/Bit for the archive's controls; keep editable prose and operational explanations in Montreal.",
+        "section": "typography"
+      },
+      {
+        "name": "The Material Depth Rule",
+        "body": "Use curved glass and sleeve construction for dimensional emphasis; keep working forms, lists and photographic panels square and quiet.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the pinned black CRT, pixel/mono perimeter, Advercase content and dimensional weathered tape composition.",
+      "**Do** keep discovery and Operate surfaces recognisably in one world while giving forms, status and owner records direct labels and ordinary reading order.",
+      "**Do** use each campaign's palette consistently across its nine-image concept sequence, sleeve and local placement study.",
+      "**Do** retain the two-line offline-campaign/filmmaker/Live explanation in short viewports and keep it clear of the sleeve and perimeter controls.",
+      "**Do** preserve focus, keyboard alternatives, independent touch targets, reduced motion and real SVG Pause/Play behavior.",
+      "**Do** keep generated imagery labelled as campaign concepts and preserve its provenance."
+    ],
+    "donts": [
+      "**Don't** replace this pinned interface with a generic landing page, uniform card grid, new palette or new typographic identity.",
+      "**Don't** promote a selected campaign colour or a local preview colour into the shared application theme.",
+      "**Don't** remove semantic navigation or overview access when adding direct manipulation, motion or visual effects.",
+      "**Don't** present concept boards, generated code motifs or on-location visualisations as executed client work, functional QR codes, measured results or committed scenery.",
+      "**Don't** let stale responses, return URLs or purely decorative status colours imply a customer's production or payment state."
+    ]
+  }
+}

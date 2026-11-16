@@ -1,0 +1,1 @@
+ALTER TABLE `bookings` ADD `deliverables_json` text DEFAULT '[]' NOT NULL;

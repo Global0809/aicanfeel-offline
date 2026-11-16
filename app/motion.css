@@ -1,0 +1,73 @@
+.campaign-motion{--cm-bg:#111;--cm-fg:#ece9e1;display:block;width:100%;height:100%;background:var(--cm-bg);color:var(--cm-fg);overflow:hidden}
+.campaign-motion .cm-ink{fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.campaign-motion text{stroke:none;fill:currentColor;font-family:var(--font-mono,ui-monospace,monospace);font-weight:500;letter-spacing:1.7px}
+.campaign-motion .cm-top-label{font-size:12px;letter-spacing:1.3px}
+.campaign-motion .cm-footer-label{font-size:11px;letter-spacing:1.4px}
+.campaign-motion .cm-micro{font-size:10px;letter-spacing:1px}
+.campaign-motion .cm-dim,.campaign-motion .cm-registration{opacity:.25}
+.campaign-motion .cm-diagram{transform-origin:400px 300px}
+.campaign-motion [class*="cm-"]{animation-play-state:running}
+.campaign-motion[data-motion-running="false"] *{animation-play-state:paused!important}
+.campaign-motion .cm-garment{fill:var(--cm-bg);stroke-width:2}
+.campaign-motion .cm-garment-back{opacity:.36;animation:cm-garment-back 5s cubic-bezier(.45,0,.2,1) infinite}
+.campaign-motion .cm-garment-front{transform-origin:400px 355px;animation:cm-garment-front 5s cubic-bezier(.45,0,.2,1) infinite}
+.campaign-motion .cm-logo-type{font-size:22px;letter-spacing:4px}
+.campaign-motion .cm-runway-line{animation:cm-runway-line 4.5s linear infinite;animation-delay:calc(var(--i)*-.75s)}
+.campaign-motion .cm-runway-flash{animation:cm-runway-flash 5s step-end infinite}
+@keyframes cm-runway-line{0%{transform:translateY(154px) scaleX(.54);transform-origin:400px 0;opacity:0}8%{opacity:.7}100%{transform:translateY(470px) scaleX(1.8);transform-origin:400px 0;opacity:0}}
+@keyframes cm-garment-front{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-8px) rotate(2deg)}}
+@keyframes cm-garment-back{0%,100%{transform:translate(0,0)}50%{transform:translate(0,5px)}}
+@keyframes cm-runway-flash{0%,47%,51%,100%{opacity:.15}48%,50%{opacity:1}}
+.campaign-motion .cm-cube{transform-origin:400px 307px;animation:cm-cube 7s cubic-bezier(.45,0,.2,1) infinite}
+.campaign-motion .cm-face-light{fill:currentColor;opacity:.08;animation:cm-face-light 7s ease-in-out infinite}
+.campaign-motion .cm-cube-orbit{transform-origin:400px 315px;animation:cm-orbit 35s linear infinite}
+.campaign-motion .cm-scan-line{stroke-width:2;animation:cm-scan 5s cubic-bezier(.65,0,.35,1) infinite}
+@keyframes cm-cube{0%,100%{transform:translateY(4px) skewY(-3deg) scaleX(.94)}50%{transform:translateY(-7px) skewY(3deg) scaleX(1)}}
+@keyframes cm-face-light{0%,100%{opacity:.04}50%{opacity:.2}}
+@keyframes cm-scan{0%,10%{transform:translateY(-130px);opacity:0}20%,75%{opacity:.65}90%,100%{transform:translateY(172px);opacity:0}}
+.campaign-motion .cm-paint-stroke{stroke-dasharray:323;stroke-dashoffset:323;animation:cm-paint 9s cubic-bezier(.25,.1,.25,1) infinite;animation-delay:calc(var(--paint-delay,0s))}
+.campaign-motion .cm-paint-stroke-2{--paint-delay:.6s}.campaign-motion .cm-paint-stroke-3{--paint-delay:1.2s}.campaign-motion .cm-paint-stroke-4{--paint-delay:1.8s}.campaign-motion .cm-paint-stroke-5{--paint-delay:2.4s}
+.campaign-motion .cm-brand-cutout{fill:var(--cm-bg);font-size:50px;letter-spacing:-2.5px;font-weight:700}
+.campaign-motion .cm-roller{stroke-width:2;animation:cm-roller 9s cubic-bezier(.4,0,.2,1) infinite;transform:translate(239px,202px)}
+@keyframes cm-paint{0%{stroke-dashoffset:323}8%,75%{stroke-dashoffset:0}88%,100%{stroke-dashoffset:-323}}
+@keyframes cm-roller{0%{transform:translate(239px,202px);opacity:1}7%{transform:translate(562px,202px)}8%{transform:translate(562px,248px)}14%{transform:translate(239px,248px)}15%{transform:translate(239px,294px)}21%{transform:translate(562px,294px)}22%{transform:translate(562px,340px)}28%{transform:translate(239px,340px)}29%{transform:translate(239px,386px)}35%,70%{transform:translate(562px,386px);opacity:1}78%,100%{transform:translate(620px,416px);opacity:0}}
+.campaign-motion .cm-giant-product{transform-origin:400px 152px;animation:cm-giant 6s ease-in-out infinite}
+.campaign-motion .cm-procession-carrier{animation:cm-carrier 6s ease-in-out infinite}
+.campaign-motion .cm-procession-ground{animation:cm-road 3s linear infinite}
+@keyframes cm-giant{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+@keyframes cm-carrier{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@keyframes cm-road{to{transform:translateX(-80px)}}
+.campaign-motion .cm-art-orbit{transform-origin:400px 312px;animation:cm-orbit 26s linear infinite}
+.campaign-motion .cm-art-core{transform-origin:400px 312px;animation:cm-art-core 5s ease-in-out infinite}
+@keyframes cm-orbit{to{transform:rotate(360deg)}}
+@keyframes cm-art-core{0%,100%{transform:scale(.94)}50%{transform:scale(1.08)}}
+.campaign-motion .cm-steam{stroke-dasharray:92;stroke-dashoffset:0;animation:cm-steam 3.8s ease-in-out infinite;animation-delay:calc(var(--i)*-.9s)}
+.campaign-motion .cm-coffee-cup{transform-origin:400px 450px;animation:cm-coffee-cup 6s ease-in-out infinite}
+.campaign-motion .cm-coffee-brand{fill:var(--cm-bg);font-size:22px;letter-spacing:-1px;font-weight:700}
+.campaign-motion .cm-coffee-ring{transform-origin:400px 341px;animation:cm-orbit 45s linear infinite}
+@keyframes cm-steam{0%{opacity:0;transform:translateY(16px);stroke-dashoffset:92}30%{opacity:.8}70%{opacity:.3}100%{opacity:0;transform:translateY(-18px);stroke-dashoffset:-92}}
+@keyframes cm-coffee-cup{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+.campaign-motion .cm-try-product{animation:cm-try-product 6s cubic-bezier(.4,0,.2,1) infinite}
+.campaign-motion .cm-try-handoff{animation:cm-try-handoff 6s ease-in-out infinite;transform-origin:400px 320px}
+.campaign-motion .cm-try-rings{transform-origin:400px 285px;animation:cm-orbit 40s linear infinite}
+.campaign-motion .cm-product-brand{font-size:18px;letter-spacing:1px;fill:var(--cm-bg)}
+.campaign-motion .cm-product-detail{font-size:9px;letter-spacing:1px;fill:var(--cm-bg)}
+@keyframes cm-try-product{0%,100%{transform:translate(0,0) rotate(0deg)}35%{transform:translate(-24px,-35px) rotate(-7deg)}65%{transform:translate(24px,-35px) rotate(7deg)}}
+@keyframes cm-try-handoff{0%,100%{transform:scaleX(.93);opacity:.3}45%,60%{transform:scaleX(1.03);opacity:1}}
+.campaign-motion .cm-map-trail{stroke-width:2;stroke-dasharray:900;animation:cm-trail 8s linear infinite}
+.campaign-motion .cm-map-stop{animation:cm-map-stop 8s ease-in-out infinite;animation-delay:calc(var(--i)*1.3s)}
+.campaign-motion .cm-map-label{font-size:25px;opacity:.2}
+@keyframes cm-trail{0%{stroke-dashoffset:900;opacity:.25}85%,100%{stroke-dashoffset:0;opacity:1}}
+@keyframes cm-map-stop{0%,100%{opacity:.3}25%,40%{opacity:1}}
+.campaign-motion .cm-perform-block{transform-origin:calc(var(--x) + 29px) calc(var(--y) + 29px);animation:cm-perform 5.6s cubic-bezier(.65,0,.35,1) infinite;animation-delay:calc(var(--i)*-.13s)}
+@keyframes cm-perform{0%,12%,100%{transform:rotate(0deg) scale(1)}36%,58%{transform:rotate(90deg) scale(.74)}78%,90%{transform:rotate(180deg) scale(1)}}
+.campaign-motion .cm-photo-print{transform-origin:555px 411px;animation:cm-photo-print 6.5s cubic-bezier(.2,.7,.1,1) infinite}
+.campaign-motion .cm-shutter-blade{animation:cm-shutter 6.5s ease-in-out infinite}
+.campaign-motion .cm-viewfinder{animation:cm-viewfinder 6.5s ease-in-out infinite;transform-origin:400px 306px}
+.campaign-motion .cm-camera-flash{opacity:0;animation:cm-camera-flash 6.5s linear infinite}
+.campaign-motion .cm-photo-note{font-size:7px;letter-spacing:.4px}
+@keyframes cm-photo-print{0%,30%{transform:translate(-72px,-56px) rotate(0deg);opacity:0}44%,78%{transform:translate(0,0) rotate(7deg);opacity:1}98%,100%{transform:translate(0,14px) rotate(7deg);opacity:0}}
+@keyframes cm-shutter{0%,25%,38%,100%{opacity:.28}29%,33%{opacity:1}}
+@keyframes cm-viewfinder{0%,18%,100%{transform:scale(1);opacity:.25}25%,40%{transform:scale(.92);opacity:1}}
+@keyframes cm-camera-flash{0%,30%,35%,100%{opacity:0}31%{opacity:.9}32%{opacity:0}33%{opacity:.5}}
+@media(prefers-reduced-motion:reduce){.campaign-motion *{animation:none!important}.campaign-motion .cm-paint-stroke{stroke-dashoffset:0}.campaign-motion .cm-roller{display:none}.campaign-motion .cm-map-trail{stroke-dashoffset:0}.campaign-motion .cm-photo-print{transform:rotate(7deg)}.campaign-motion .cm-map-traveller{display:none}}

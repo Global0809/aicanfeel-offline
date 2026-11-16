@@ -1,0 +1,495 @@
+.tv-footer > .location-clock {
+  margin-left: 0;
+}
+.status-details dd > small {
+  display: block;
+  font-size: 10px;
+  color: var(--quiet);
+  margin-top: 5px;
+}
+.status-cancelled .status-square {
+  background: #b18e78;
+}
+.portal-campaign-image {
+  position: relative;
+  aspect-ratio: 3/2;
+  overflow: hidden;
+}
+.portal-campaign-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.portal-campaign-image > span {
+  position: absolute;
+  bottom: 13px;
+  left: 13px;
+  background: #1119;
+  color: #fff;
+  padding: 5px 7px;
+  font-family: var(--font-mono);
+  font-size: 8px;
+}
+.portal-aside .next-steps {
+  margin: 0;
+}
+.portal-timeline {
+  padding-left: 16px !important;
+}
+.portal-timeline li {
+  margin-bottom: 24px;
+  padding-left: 6px;
+  font-size: 12px;
+}
+.portal-timeline strong {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--ink);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.portal-timeline time {
+  display: block;
+  font-size: 10px;
+  color: var(--quiet);
+  margin: 7px 0;
+}
+.portal-timeline p {
+  font-size: 12px;
+  color: var(--quiet);
+  line-height: 1.6;
+}
+.portal-brief {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  margin-top: 25px;
+  padding: 18px 0;
+}
+.portal-brief summary {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.portal-brief > p {
+  white-space: pre-line;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--quiet);
+  padding: 20px 0;
+}
+.portal-brief > span {
+  font-size: 11px;
+  color: var(--quiet);
+}
+.portal-notice {
+  padding: 14px 0;
+  margin: 15px 0;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+  color: #d5dfbc;
+}
+.portal-amounts {
+  margin: 30px 0;
+  border-block: 1px solid var(--line);
+  padding: 15px 0;
+}
+.portal-amounts > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 25px;
+  padding: 12px 0;
+  font-size: 13px;
+}
+.portal-amounts dt {
+  color: var(--quiet);
+}
+.portal-amounts dd {
+  font-family: var(--font-mono);
+  font-size: 19px;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: -0.03em;
+}
+.portal-invoice {
+  padding-top: 20px;
+  margin-top: 25px;
+  border-top: 1px solid var(--line);
+}
+.portal-invoice > p {
+  font-size: 13px;
+  color: var(--quiet);
+  margin-bottom: 20px;
+}
+.portal-payment-received {
+  margin-top: 25px;
+  padding: 22px 0;
+  border-block: 1px solid var(--line);
+}
+.portal-payment-received strong {
+  font-weight: 400;
+  font-size: 18px;
+  color: #d5dfbc;
+}
+.portal-payment-received p {
+  font-size: 12px;
+  margin: 10px 0;
+  color: var(--quiet);
+}
+.portal-payment-received > span {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--quiet);
+}
+.portal-delivery {
+  border-top: 1px solid var(--line);
+  padding-top: 40px;
+  margin: 60px 0;
+}
+.delivery-files {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 35px;
+  border-top: 1px solid var(--line);
+  margin: 30px 0;
+}
+.delivery-files > a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 25px 40px 25px 0;
+  border-bottom: 1px solid var(--line);
+}
+.delivery-files > a > span {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--quiet);
+  text-transform: uppercase;
+}
+.delivery-files > a > h3 {
+  font-family: var(--font-display);
+  font-size: 28px;
+  line-height: 1.1;
+}
+.delivery-files > a > svg {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.2;
+}
+.delivery-files > a:hover > h3 {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.portal-delivery > .small-copy {
+  margin-bottom: 20px;
+}
+.portal-campaign-report {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 70px;
+  border-top: 1px solid var(--line);
+  padding: 40px 0;
+  margin-bottom: 50px;
+}
+.portal-campaign-report h2 {
+  margin-bottom: 25px;
+}
+.portal-campaign-report p {
+  color: var(--quiet);
+  font-size: 14px;
+  margin: 18px 0;
+}
+.portal-campaign-report .small-copy {
+  font-size: 12px;
+}
+.portal-public-link {
+  display: block;
+  overflow-wrap: anywhere;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.6;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.portal-scan-count {
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+  padding: 25px 0;
+  border-top: 1px solid var(--line);
+  margin-top: 25px;
+  font-size: 13px;
+}
+.portal-scan-count > strong {
+  font-family: var(--font-mono);
+  font-size: 37px;
+  font-weight: 500;
+}
+.portal-scan-count > span {
+  color: var(--quiet);
+}
+.portal-qr {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  max-width: 250px;
+  justify-self: end;
+}
+.portal-qr > img {
+  width: 230px;
+  max-width: 100%;
+  height: auto;
+}
+.portal-qr > .small-copy {
+  font-size: 11px;
+  margin: 0;
+}
+.portal-back {
+  max-width: 450px;
+}
+.status-page .error-panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 25px;
+}
+.status-page .error-panel > p {
+  width: 100%;
+}
+.status-page .error-panel .text-button {
+  margin-top: 0;
+}
+.status-page .approved-quote > p {
+  white-space: pre-line;
+  font-size: 14px;
+}
+.status-page .approved-quote > .small-copy {
+  font-size: 12px;
+}
+.desk-deliveries {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+  border-top: 1px solid var(--line);
+  padding-top: 35px;
+  margin: 50px 0 30px;
+}
+.desk-deliveries h3 {
+  font-family: var(--font-display);
+  font-size: 31px;
+  line-height: 1.1;
+  margin-bottom: 23px;
+}
+.desk-deliveries p {
+  font-size: 14px;
+  color: var(--quiet);
+  margin-bottom: 20px;
+}
+.desk-deliveries .small-copy {
+  font-size: 12px;
+}
+.delivery-editor {
+  padding: 25px 0;
+  border-top: 1px solid var(--line);
+}
+.delivery-editor:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+.delivery-editor-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 23px 0;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  text-transform: uppercase;
+  color: var(--quiet);
+}
+.desk-deliveries .booking-form > .small-copy {
+  margin-top: 17px;
+  font-size: 11px;
+}
+@media (max-width: 850px) {
+  .portal-campaign-report {
+    gap: 40px;
+  }
+  .portal-amounts dd {
+    font-size: 17px;
+  }
+  .portal-qr {
+    max-width: 200px;
+  }
+  .desk-deliveries {
+    gap: 35px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .desk-deliveries h3 {
+    font-size: 29px;
+  }
+  .portal-aside .next-steps {
+    padding: 25px;
+  }
+  .portal-aside .next-steps h2 {
+    font-size: 27px;
+  }
+}
+@media (max-width: 600px) {
+  .status-details dd > small {
+    font-size: 9px;
+  }
+  .portal-timeline p {
+    font-size: 11px;
+  }
+  .portal-timeline strong {
+    font-size: 9px;
+  }
+  .portal-timeline time {
+    font-size: 9px;
+  }
+  .portal-brief summary {
+    font-size: 9px;
+  }
+  .portal-brief > p {
+    font-size: 12px;
+  }
+  .portal-amounts > div {
+    font-size: 11px;
+    gap: 18px;
+    padding-block: 10px;
+  }
+  .portal-amounts dd {
+    font-size: 17px;
+  }
+  .portal-payment-received strong {
+    font-size: 16px;
+  }
+  .portal-payment-received p,
+  .portal-invoice > p {
+    font-size: 11px;
+  }
+  .portal-delivery {
+    padding-top: 30px;
+    margin: 40px 0;
+  }
+  .delivery-files {
+    grid-template-columns: 1fr;
+    margin: 25px 0;
+  }
+  .delivery-files > a {
+    padding: 22px 35px 22px 0;
+    gap: 10px;
+  }
+  .delivery-files > a > h3 {
+    font-size: 27px;
+  }
+  .delivery-files > a > span {
+    font-size: 8px;
+  }
+  .delivery-files > a > svg {
+    width: 18px;
+    height: 18px;
+  }
+  .portal-campaign-report {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding-top: 30px;
+    margin-bottom: 35px;
+  }
+  .portal-campaign-report p {
+    font-size: 12px;
+  }
+  .portal-campaign-report .small-copy {
+    font-size: 11px;
+  }
+  .portal-public-link {
+    font-size: 10px;
+  }
+  .portal-scan-count > strong {
+    font-size: 31px;
+  }
+  .portal-scan-count {
+    font-size: 11px;
+    padding: 20px 0;
+    gap: 15px;
+  }
+  .portal-qr {
+    justify-self: start;
+    max-width: 230px;
+  }
+  .portal-qr > img {
+    width: 190px;
+  }
+  .portal-campaign-image > span {
+    font-size: 7px;
+    bottom: 11px;
+    left: 11px;
+  }
+  .desk-deliveries {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding-top: 30px;
+    margin-top: 35px;
+  }
+  .desk-deliveries h3 {
+    font-size: 29px;
+    margin-bottom: 20px;
+  }
+  .desk-deliveries p {
+    font-size: 13px;
+  }
+  .desk-deliveries .small-copy {
+    font-size: 11px;
+  }
+  .delivery-editor-actions {
+    font-size: 8px;
+    gap: 20px;
+  }
+  .portal-back {
+    font-size: 9px;
+  }
+}
+@media print {
+  .portal-campaign-image,
+  .portal-campaign-report,
+  .portal-delivery,
+  .portal-back,
+  .portal-invoice,
+  .quote-consent,
+  .portal-notice,
+  .error-panel,
+  .desk-working,
+  .desk-notice {
+    display: none !important;
+  }
+  .portal-aside {
+    margin-top: 30px;
+  }
+  .portal-timeline strong,
+  .portal-payment-received strong {
+    color: #111;
+  }
+  .portal-amounts {
+    border-color: #888;
+  }
+  .portal-brief > p {
+    display: block !important;
+  }
+  .portal-brief {
+    border-color: #888;
+  }
+  .portal-amounts dd {
+    font-size: 17px;
+  }
+  .status-page .approved-quote > p {
+    font-size: 12px;
+  }
+}
